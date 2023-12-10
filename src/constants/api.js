@@ -1,3 +1,6 @@
-export const BASE_URL = "https://reqres.in/"
+export const BASE_URL = "https://reqres.in/api"
 
-export const fetchUsers = BASE_URL + "api/users"
+export const API_ENDPOINTS = {
+    fetchUsers: BASE_URL + `/users`,
+    fetchUser: (id) => BASE_URL + `/${id}`
+}

@@ -1,6 +1,5 @@
 import { LeftComponent } from './components/left';
 import { RightComponent } from './components/right';
-import { BottomComponent } from './components/bottom';
 
 
 function App() {
@@ -9,7 +8,6 @@ function App() {
             <LeftComponent/>
             <RightComponent/>
         </div>
-        <BottomComponent/>
   </div>);
 }
 
